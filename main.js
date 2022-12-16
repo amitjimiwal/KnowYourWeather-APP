@@ -18,10 +18,10 @@ async function fetchdata(url){
 }
 
 function showspin(){
-    document.querySelector('.loader').style.display='block';
+    document.querySelector('.wait').style.display='block';
 }
 function endspin(){
-    document.querySelector('.loader').style.display='none';
+    document.querySelector('.wait').style.display='none';
 }
 
 function update(temperature,loc,datee,conditions,emoji_url){
